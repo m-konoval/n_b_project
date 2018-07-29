@@ -29,7 +29,13 @@
             "styles": [
               "src/styles.less"
             ],
-            "scripts": []
+            "scripts": [
+              "src/libs/jquery/jquery.min.js",
+              "src/libs/jquery/jquery.slim.min.js",
+
+              "src/libs/bootstrap/js/bootstrap.bundle.min.js",
+              "src/libs/bootstrap/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -78,7 +84,13 @@
             "styles": [
               "src/styles.less"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/libs/jquery/jquery.min.js",
+              "src/libs/jquery/jquery.slim.min.js",
+
+              "src/libs/bootstrap/js/bootstrap.bundle.min.js",
+              "src/libs/bootstrap/js/bootstrap.min.js"
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
