@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Socials } from './../../shared/socials';
-import { Navigation } from './../../shared/navigation';
+import { Socials } from '../../shared/socials';
+import { Navigation } from '../../shared/navigation';
 
 @Component({
     selector: 'app-top-line',

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
-import { Slides } from './../../shared/slides';
+import { Slides } from '../../shared/slides';
 
 @Component({
     selector: 'app-slider',

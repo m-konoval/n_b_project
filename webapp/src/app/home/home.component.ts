@@ -1,4 +1,4 @@
-import { MenuList } from './../shared/menu';
+import { MenuList } from '../shared/menu';
 import { Component, OnInit } from '@angular/core';
 
 @Component({

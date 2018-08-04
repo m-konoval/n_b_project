@@ -1,6 +1,6 @@
-import { UtilsService } from './../../shared/utils.service';
+import { UtilsService } from '../../shared/utils.service';
 import { Component, OnInit } from '@angular/core';
-import { MenuList } from './../../shared/menu';
+import { MenuList } from '../../shared/menu';
 
 @Component({
     selector: 'app-navigation',
