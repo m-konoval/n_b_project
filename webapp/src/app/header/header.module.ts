@@ -4,6 +4,7 @@ import { HeaderComponent } from './header.component';
 import { TopLineComponent } from './top-line/top-line.component';
 import { SliderComponent } from './slider/slider.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NavigationComponent } from './navigation/navigation.component';
 
 @NgModule({
     imports: [
@@ -13,7 +14,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     declarations: [
         HeaderComponent,
         TopLineComponent,
-        SliderComponent
+        SliderComponent,
+        NavigationComponent
     ],
     exports: [
         HeaderComponent

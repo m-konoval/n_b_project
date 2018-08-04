@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
-import { MenuList } from './../../shared/menu';
+import { Slides } from './../../shared/slides';
 
 @Component({
     selector: 'app-slider',
@@ -9,22 +9,15 @@ import { MenuList } from './../../shared/menu';
     providers: [NgbCarouselConfig]
 })
 export class SliderComponent implements OnInit {
-    public slides: object[];
-    public currentSlide;
+    public slides: string[];
 
     constructor(carousel: NgbCarouselConfig) {
         carousel.showNavigationArrows = false;
         carousel.showNavigationIndicators = false;
+        carousel.interval = 10000;
     }
-
 
     ngOnInit() {
-        this.slides = MenuList;
+        this.slides = Slides;
     }
-
-
-    public goToTopic (it, ind) {
-        console.log(it, ind);
-    }
-
 }

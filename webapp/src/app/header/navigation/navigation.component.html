@@ -1,0 +1,8 @@
+<div class="nagigation">
+    <div class="nagigation__item"
+        *ngFor="let item of navList"
+        (click)="goToTopic(item.hook)">
+        <span class="nagigation__item-text"
+            [textContent]="item.name"></span>
+    </div>
+</div>

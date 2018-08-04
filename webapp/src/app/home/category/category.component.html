@@ -1,0 +1,16 @@
+<div class="category" [id]="category.hook">
+
+    <h2 class="category__title" [textContent]="category.name"></h2>
+
+    <div class="category__list">
+        <div class="card category__item"
+            *ngFor="let article of (category.articles ? category.articles.slice(0,3): [])">
+            <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+            <div class="card-body">
+                <h2 class="card-title" [textContent]="article.title"></h2>
+                <a href="#" class="btn btn-primary">Read More &rarr;</a>
+            </div>
+            <div class="card-footer text-muted" [textContent]="article.created | date: 'short'"></div>
+        </div>
+    </div>
+</div>

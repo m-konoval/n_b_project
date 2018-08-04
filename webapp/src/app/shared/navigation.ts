@@ -1,14 +1,14 @@
 export const Navigation = [
     {
-        name: 'Home',
+        name: 'Головна',
         route: '/'
     },
     {
-        name: 'About',
+        name: 'Про мене',
         route: '/about'
     },
     {
-        name: 'Contact',
+        name: 'Контакти',
         route: '/contact'
     }
 ];

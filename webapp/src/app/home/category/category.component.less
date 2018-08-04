@@ -1,0 +1,18 @@
+.category {
+    &__title {
+        margin-bottom: 20px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        width: ~"calc(33% - 10px )";
+
+        & + & {
+            margin-left: 15px;
+        }
+    }
+}

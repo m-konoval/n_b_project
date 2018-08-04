@@ -1,14 +1,13 @@
-<header>
+<header id="header-hook">
     <app-top-line></app-top-line>
 
-
-    <div class="position-relative">
+    <div class="header__body">
         <app-slider></app-slider>
 
-        <div class="slogan" [textContent]="dailySlogan">
+        <div class="header__slogan" [textContent]="dailySlogan">
         </div>
+
+        <app-navigation class="header__navigation">
+        </app-navigation>
     </div>
-
-
-
 </header>
