@@ -9,11 +9,10 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
     public topics: object[];
 
-    constructor() {
-        this.topics = MenuList;
-    }
+    constructor() {}
 
     ngOnInit() {
+        this.topics = MenuList;
     }
 
 }
